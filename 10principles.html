@@ -1,0 +1,1335 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<title>10 Principles of Good Design - Dieter Rams</title>
+</head>
+
+<style>
+
+	body{
+	font-family: "Helvetica Neue";	
+	background-color: #DDD2C5;
+	color: #3B3A36;
+	
+}
+.content{
+		z-index: 2;
+}
+	
+	
+		/*TRIANGLES*/
+	.triangle1 {
+	width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 2000px solid transparent;
+	border-bottom: 1975px solid #EE2229;
+  	position: fixed;
+  	top: 20px;
+		left: -3px;
+	opacity: 72%;
+	z-index: -1;
+	}
+	
+	.triangle2 {
+	width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 2000px solid transparent;
+	border-bottom: 1975px solid #F57F2F;
+ 	position: fixed;
+  	top: 20px;
+	opacity: 72%;
+	left: 200px;
+	}
+	
+	.triangle3 {
+	width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 2000px solid transparent;
+	border-bottom: 1975px solid #EE2229;
+  	position: fixed;
+	top: 20px;
+	opacity: 72%;
+	left: 500px;
+	z-index:-1
+	}
+	
+	
+	
+/*HOVER PROPERTIES*/	
+	
+	.one{
+	position: relative;
+	top: -20px;
+	opacity: 20%;
+	-webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+	}
+	
+	.one:hover{
+	position: relative;
+	top: -20px;
+	opacity: 100%
+	}
+	
+	
+	.two{
+	position: relative;
+	top: -380px;
+	opacity: 20%;
+	-webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+	}
+	
+	.two:hover{
+	position: relative;
+	top: -380px;	
+	opacity: 100%;
+	}
+	
+	.three{
+	position: relative;
+	top: -760px;
+	opacity: 20%;
+	-webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+	}
+	
+	.three:hover{
+	position: relative;
+	ttop: -760px;	
+	opacity: 100%;
+	}
+	
+	.four{
+	position: relative;
+	top: -1150px;
+	opacity: 20%;
+	-webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+	}
+	
+	.four:hover{
+	position: relative;
+	top: -1150px;
+	opacity: 100%;
+	}
+	
+	.five{
+	position: relative;
+	top: -1480px;
+	opacity: 20%;
+	-webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+	}
+	
+	.five:hover{
+	position: relative;
+	top: -1480px;
+	opacity: 100%;
+	}
+	
+	.six{
+	
+	position: relative;
+	top: -1300px;
+	opacity: 20%;
+	height: 700px;
+	-webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+	
+	}
+	
+	.six:hover{
+	position: relative;
+	top: -1300px;
+	opacity: 100%;
+	height: 700px;
+	}
+	
+	.seven{
+	position: relative;
+	top: -1250px;
+	opacity: 20%;
+	height: 700px;
+	-webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+	
+	}
+	
+	.seven:hover{
+	position: relative;
+	height: 700px;
+	opacity: 100%;
+	}
+	
+	.eight{
+	position: relative;
+	top: -1180px;
+	opacity: 20%;
+	height: 800px;
+	-webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+
+	}
+	
+	.eight:hover{
+	position: relative;
+	top: -1180px;
+	opacity: 100%;
+	height: 800px;
+	}
+	
+	.nine{
+	position: relative;
+	top: -1000px;
+	opacity: 20%;
+	height: 800px;
+	-webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+	
+
+	}
+	
+	.nine:hover{
+	position: relative;
+	top: -1000px;
+	opacity: 100%;
+	height: 800px;
+	}
+	
+	.ten{
+	position: relative;
+	top: -940px;
+	opacity: 20%;
+	height: 800px;
+	-webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+	}
+	
+	.ten:hover{
+	position: relative;
+	top: -940px;
+	opacity: 100%;
+	height: 800px;
+	}
+	
+	
+	
+	/*TITLE*/
+	
+	h1{
+		font-size: 400px;
+		height:10px;
+		letter-spacing: -30px;
+		position: relative;
+		top: -320px;
+		left: 2.5%;
+		z-index: 2;
+		
+
+	}
+	
+	
+	
+	h2{
+		font-size: 190px;
+		position: relative;
+		top: -160px;
+		left: 5%;
+		z-index: 2;
+		letter-spacing: -5px;
+		width: 70%;
+
+	}
+	
+	/*DIETER RAMS*/
+	
+	h3{
+	color: #3B3A36;
+	font-size: 100px;
+	font-weight: lighter;
+	position: relative;
+	left: 55%;	
+	letter-spacing: -4px
+		
+	}
+	
+	
+	
+	/*NUMBERS*/
+	.numbers{
+		font-size: 270px;
+		font-weight: bold;
+	
+	}
+
+	
+	/*START OF PRINCIPLES*/
+	
+	/*GOOD DESIGN IS INNOVATIVE*/
+	
+	p1{
+		position: relative;
+		top: 150px;
+		left: 5%;
+		z-index: 2;
+	}
+	
+	h4{
+		font-size: 100px;
+		position: relative;
+		top: -266px;
+		left: 20%;
+		letter-spacing: -5px;
+		line-height: 110px;
+	}
+	
+	p11{
+		font-size: 36px;
+		font-weight: 200;
+		position: relative;
+		top: -330px;
+		left: 20%;
+		display: block;
+		width: 43%;
+	
+	}
+	
+	
+	
+	/*GOOD DESIGN MAKES A PRODUCT USEFUL*/
+	p2{
+		position: relative;
+		left: 20%;
+		top: 170px;
+	}
+	
+	h5{
+	font-size: 100px;
+	position: relative;
+	top: -266px;
+	left: 40%;
+	letter-spacing: -5px;
+		line-height: 110px;
+		width: 50%;
+	}
+	
+	p12{
+		font-size: 36px;
+		font-weight: 200;
+		position: relative;
+		top: -350px;
+		left: 40%;
+		display: block;
+		width: 43%;
+	
+	}
+	
+	
+	/*GOOD DESIGN IS AESTHETIC*/
+	
+	p3{
+	position: relative;
+	top: 180px;
+	left: 5%;
+	}
+	
+	h6{
+	font-size: 100px;
+	position: relative;
+	top: -330px;
+	left: 25%;
+	letter-spacing: -5px;
+	line-height: 110px;
+		width: 35%
+	}
+	
+	p13{
+	font-size: 36px;
+	font-weight: 200;
+	position: relative;
+	top: -450px;
+	left: 25%;
+	display: block;
+	width: 43%;
+	
+	}
+	
+	
+	/*GOOD DESIGN MAKES A PRODCUT UNDERSTANDABLE*/
+	
+	p4{
+		position: relative;
+		top: 50px;
+		left: 20%;
+	}
+	
+	h7{
+	font-size: 100px;
+	position: relative;
+	top: -230px;
+	left: 40%;
+	font-weight: bold;
+	letter-spacing: -5px;
+	line-height: 110px;
+		display: block;
+		width: 50%;
+	}
+	
+	p14{
+	font-size: 36px;
+	font-weight: 200;
+	position: relative;	
+	top: -150px;
+	left: 40%;
+	display: block;
+	width: 43%;
+	}
+	
+	
+	/*GOOD DESIGN IS UNOBTRUSIVE*/
+	
+	p5{
+		position: relative;
+		top: 290px;
+		left: 5%;
+	}
+	
+	h8{	
+	font-size: 100px;
+	position: relative;
+	top: 10px;
+	left: 25%;
+	font-weight: bold;
+	letter-spacing: -5px;
+	line-height: 110px;
+	display: block;
+	width: 38%
+
+		
+	}
+	
+	p15{
+font-size: 36px;
+font-weight: 200;
+position: relative;
+top: 90px;
+left: 25%;
+display: block;
+width: 43%;
+	}
+	
+	
+	/*GOOD DESIGN IS HONEST*/
+	
+	p6{
+		position: relative;
+		
+		left: 20%;	
+	}
+	
+	h9{
+		font-size: 100px;
+	position: relative;
+	top: -270px;
+	left: 40%;
+	font-weight: bold;
+	letter-spacing: -5px;
+	line-height: 110px;
+		display: block;
+		width: 38%;
+	}
+	
+	p16{
+font-size: 36px;
+font-weight: 200;
+position: relative;
+top: -175px;
+left: 40%;
+display: block;
+width: 43%;
+	}
+	
+	
+	
+	/*GOOD DESIGN IS LONG LASTING*/
+	
+	p7{
+		position: relative;
+		top: 20px;
+		left: 5%
+	}
+	
+	h10{
+	font-size: 100px;
+	position: relative;
+	top: -260px;
+	left: 25%;
+	font-weight: bold;
+	letter-spacing: -5px;
+	line-height: 110px;
+	display: block;
+		width: 38%;
+	}
+	
+	
+	p17{
+	font-size: 36px;
+	font-weight: 200;
+	position: relative;
+	top: -180px;
+	left: 25%;
+	display: block;
+	width: 43%;
+	}
+	
+	
+	
+	/*GOOD DESIGN IS THOROUGH*/
+	
+	p8{
+	position: relative;
+	top: 30px;
+	left: 23%;
+	}
+	
+	h11{
+	font-size: 100px;
+	position: relative;
+	top: -230px;
+	left: 40%;
+	font-weight: bold;
+	letter-spacing: -5px;
+	line-height: 110px;
+	display: block;
+		width: 55%;
+	}
+	
+	p18{
+	font-size: 36px;
+	font-weight: 200;
+	position: relative;
+	top: -150px;
+	left: 40%;
+	display: block;
+	width: 43%;
+	}
+	
+	
+	/*GOOD DESIGN IS ENVIRONMENTALLY FRIENDLY*/
+	
+	p9{
+	position: relative;
+	left: 5%;
+	top: -40px;
+	}
+	
+	h12{
+	font-size: 100px;
+	position: relative;
+	top: -300px;
+	left: 25%;
+	font-weight: bold;
+	letter-spacing: -5px;
+	line-height: 110px;
+	display: block;
+	width: 39%;
+	}
+	
+	p19{
+	font-size: 36px;
+	font-weight: 200;
+	position: relative;
+	top: -230px;
+	left: 25%;
+	display: block;
+	width: 43%;
+	}
+	
+	
+	
+	/*GOOD DESIGN IS AS LITTLE AS POSSIBLE*/
+	
+	p10{
+	position: relative;
+	left: 25%;
+	top: -30px;
+	letter-spacing: -20px;
+	}
+	
+	h13{
+	font-size: 100px;
+	position: relative;
+	top: -290px;
+	left: 50%;
+	font-weight: bold;
+	letter-spacing: -5px;
+	line-height: 110px;
+		display: block;
+	width: 40%;
+	
+	}
+	
+	p20{
+	font-size: 36px;
+	font-weight: 200;
+	position: relative;
+	top: -190px;
+	left: 50%;
+	display: block;
+	width: 43%;
+	height: 300px
+	}
+	
+	
+	
+	
+	
+	@media only screen and (max-width: 800px){
+	
+		
+		h2{
+			font-size: 110px;
+			width: 90%
+
+		}
+		h3{
+			font-size: 80px;
+			position: relative;
+			left: 50%;
+		}
+	
+	
+	p1{ 
+		font-size: 120px;
+		position: relative;
+		top: -40px;
+		left: 2%;
+		
+	}
+	h4{
+		font-size: 50px;
+		position: relative;
+		left: 25%;
+		line-height: 60px;
+		letter-spacing: -3px;
+		
+	}
+	
+	p11{
+		font-size: 25px;
+		width: 65%;
+		position: relative;
+		left: 25%;
+		top: -280px;
+	}
+	
+	p2{
+		font-size: 120px;
+		position: relative;
+		top: 30px;
+		left: 25%;
+	}
+	
+	h5{
+		font-size: 50px;
+		width: 55%;
+		line-height: 60px;
+		letter-spacing: -3px;
+		position: relative;
+		top: -215px;
+	}
+	
+	p12{
+		font-size: 25px;
+		width: 60%;
+		position: relative;
+		top: -230px;
+	}
+	
+	p3{
+		font-size: 120px;
+		position: relative;
+		top: 110px;
+	}
+	
+	
+	h6{
+		font-size: 50px;
+		width: 50%;
+		letter-spacing: -3px;
+		line-height: 60px;
+		position: relative;
+		top: -170px;
+	}
+	
+	p13{
+		font-size: 25px;
+		width: 60%;
+		top: -230px;
+		
+		
+	}
+	
+	p4{
+		font-size: 120px;
+		position: relative;
+		top: 140px;
+		left: 25%;
+		
+	}
+	
+	h7{
+		font-size: 50px;
+		width: 60%;
+		line-height: 60px;
+		width: 50%;
+		position: relative;
+		top: -30px;
+	}
+	
+	p14{
+		font-size: 25px;
+		width: 55%;
+		position: relative;
+		top: 40px;
+		
+	}
+	
+	
+	p5{
+		font-size: 120px;
+		position: relative;
+		top: 345px;
+	}
+	
+	h8{
+		font-size: 50px;
+		width: 60%;
+		line-height: 60px;
+		top: 180px;
+	}
+	
+	p15{
+		font-size: 25px;
+		width: 65%;
+		position: relative;
+		top: 250px;
+		
+	}
+	
+	p6{
+		font-size: 120px;
+		position: relative;
+		top: 40px;
+		left: 25%;
+	}
+	
+	h9{
+		font-size: 50px;
+		width: 50%;
+		line-height: 60px;
+		width: 35%;
+		position: relative;
+		top: -120px;
+		
+		
+	}
+	
+	p16{
+		font-size: 25px;
+		width: 59%;
+		position: relative;
+		top: -60px;
+	}
+	
+	
+	p7{
+		font-size: 120px;
+		position: relative;
+		top: -170px;
+		
+	}
+	
+	h10{
+		font-size: 50px;
+		width: 50%;
+		line-height: 60px;
+		top: -340px;
+	}
+	
+	p17{
+		font-size: 25px;
+		width: 60%;
+		position: relative;
+		top: -280px;
+	}
+	
+	p8{
+		font-size: 120px;
+		position: relative;
+		left: 25%;
+		top: -390px;
+	}
+	
+	h11{
+		font-size: 50px;
+		width: 50%;
+		line-height: 60px;
+		position: relative;
+		top: -550px;
+	}
+	
+	p18{
+		font-size: 25px;
+		width: 55%;
+		position: relative;
+		top: -480px;
+		
+	}
+	
+	p9{
+		font-size: 120px;
+		position: relative;
+		top: -700px;
+	}
+	
+	h12{
+		font-size: 50px;
+		width: 56%;
+		position: relative;
+		top: -860px;
+		line-height: 60px;
+	}
+	
+	p19{
+		font-size: 25px;
+		width: 55%;
+		position: relative;
+		top: -800px;
+	}
+	
+	p10{
+		font-size: 120px;
+		position: relative;
+		left: 200px;
+		top: -980px;
+		
+	}
+	
+	h13{
+		font-size: 50px;
+		width: 40%;
+		line-height: 90px;
+		line-height: 60px;
+		position: relative;
+		top: -1140px;
+	}
+		p20{
+		font-size: 25px;
+		width: 50%;
+		position: relative;
+		top: -1060px;
+		}
+	
+	
+	}
+
+	
+	
+	
+	@media only screen and (max-width: 550px) {
+		
+		
+	.triangle1 {
+	width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 700px solid transparent;
+	border-bottom: 675px solid #EE2229;
+  	position: fixed;
+  	top: 215px;
+		left: -3px;
+	opacity: 72%;
+	z-index: -1;
+	}
+	
+	.triangle2 {
+	width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 700px solid transparent;
+	border-bottom: 675px solid #F57F2F;
+ 	position: fixed;
+  	top: 215px;
+	opacity: 72%;
+	left: 150px;
+	}
+	
+	.triangle3 {
+	width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 700px solid transparent;
+	border-bottom: 675px solid #EE2229;
+  	position: fixed;
+	top: 215px;
+	opacity: 72%;
+	left: 300px;
+	z-index:-1
+	}
+		
+		
+		h1{
+			position: relative;
+			left: -1%;
+			top: -180px;
+			font-size: 290px;
+		}
+		
+		h2{
+			font-size: 90px;
+			letter-spacing: -5px;
+			position: relative;
+			top: -60px;
+			
+		
+		}
+		
+		
+		h3{
+			font-size: 60px;
+			letter-spacing: -3px;
+			position: relative;
+			left: 30%;
+			top: 50px;
+		}
+		
+		p1{
+			font-size: 100px;
+			position: relative;
+			top: -10px;
+		
+		}
+		
+		
+		
+		h4{
+			font-size: 40px;
+			position: relative;
+			left: 30%; 
+			top: -200px;
+			line-height: 40px;
+			letter-spacing: -3px;
+		}
+		
+		p11{
+			position: relative;
+			left: 30%;
+			top: -190px;
+			font-size: 25px;
+			width: 60%;
+		}
+		
+		
+		
+		p2{
+			position: relative;
+			left: 5%;
+			top: 80px;
+			font-size: 100px;
+		}
+		
+		h5{
+			font-size: 40px;
+			position: relative;
+			left: 30%; 
+			top: -130px;
+			line-height: 40px;
+			width: 60%;
+			letter-spacing: -3px;
+		}
+		p12{
+			font-size: 25px;
+			position: relative;
+			left: 30%;
+			top: -150px;
+			width: 60%;
+		}
+		
+		
+		p3{
+			position: relative;
+			left: 5%;
+			top: 115px;
+			font-size: 100px;
+		}
+		
+		h6{
+			font-size: 40px;
+			width: 48%;
+			line-height: 40px;
+			position: relative;
+			left: 30%;
+			top: -120px;
+			letter-spacing: -3px;
+
+		}
+		
+		p13{
+			font-size: 25px;
+			position: relative;
+			left: 30%;
+			top: -170px;
+			width: 60%;
+		}
+		
+		p4{
+			position: relative;
+			left: 5%;
+			top: 135px;
+			font-size: 100px;
+		}
+		
+		h7{
+			font-size: 40px;
+			width:60%;
+			line-height: 40px;
+			position: relative;
+			left: 30%;
+			top: -10px;
+			letter-spacing: -3px;
+		}
+		
+		p14{
+			font-size: 25px;
+			position: relative;
+			left: 30%;
+			top: 80px;
+			width: 60%;
+		}
+		
+		
+		p5{
+			position: relative;
+			left: 5%;
+			top: 380px;
+			font-size: 100px;
+			
+		}
+		
+		h8{
+			font-size: 40px;
+			width: 50%;
+			line-height: 40px;
+			position: relative;
+			left: 30%;
+			top: 240px;
+			letter-spacing: -3px;
+			
+		}
+		
+		p15{
+			font-size: 25px;
+			position: relative;
+			left: 30%;
+			top: 340px;
+			width: 60%;
+		}
+		
+		p6{
+			position: relative;
+			left: 5%;
+			top: 130px;
+			font-size: 100px;
+		}
+		
+		h9{
+			font-size: 40px;
+			width: 45%;
+			line-height: 40px;
+			position: relative;
+			left: 30%;
+			top: -10px;
+			letter-spacing: -3px;
+		}
+		
+		p16{
+			font-size: 25px;
+			position: relative;
+			left: 30%;
+			top: 90px;
+			width: 60%;
+		}
+		
+		p7{
+			position: relative;
+			left: 5%;
+			top: 35px;
+			font-size: 100px;
+		}
+		
+		h10{
+			font-size: 40px;
+			width: 63%;
+			line-height: 40px;
+			position: relative;
+			left: 30%;
+			top: -110px;
+			letter-spacing: -3px;
+		}
+		
+		p17{
+			font-size: 25px;
+			position: relative;
+			left: 30%;
+			top: -20px;
+			width: 60%;
+		}
+		
+		p8{
+			position: relative;
+			left: 5%;
+			top: -90px;
+			font-size: 100px;
+		}
+		
+		h11{
+			font-size: 40px;
+			width: 60%;
+			line-height: 40px;
+			position: relative;
+			left: 30%;
+			top: -230px;
+			letter-spacing: -3px;
+		}
+		
+		p18{
+			font-size: 25px;
+			position: relative;
+			left: 30%;
+			top: -130px;
+			width: 60%;
+		}
+		
+		p9{
+			position: relative;
+			left: 5%;
+			top: -250px;
+			font-size: 100px;
+		}
+		
+		h12{
+			font-size: 40px;
+			width: 65%;
+			line-height: 40px;
+			position: relative;
+			left: 30%;
+			top: -390px;
+			letter-spacing: -3px;
+		}
+		
+		p19{
+			font-size: 25px;
+			position: relative;
+			left: 30%;
+			top: -300px;
+			width: 60%;
+		}
+		
+		p10{
+			position: relative;
+			font-size: 100px;
+			left: 1%;
+			top: -520px;
+			letter-spacing: -10px;
+		}
+		
+		h13{
+			font-size: 40px;
+			width: 58%;
+			line-height: 40px;
+			position: relative;
+			left: 30%;
+			top: -670px;
+			letter-spacing: -3px;
+		}
+		
+		p20{
+			font-size: 25px;
+			position: relative;
+			left: 30%;
+			top: -580px;
+			width: 60%;
+		}
+		
+		.one{
+			opacity: 100%;
+		}
+		
+		.two{
+			opacity: 100%;
+		}
+		.three{
+			opacity: 100%;
+		}
+		.four{
+			opacity: 100%;
+		}
+		.five{
+			opacity: 100%;
+		}
+		.six{
+			opacity: 100%;
+		}
+		.seven{
+			opacity: 100%;
+		}
+		.eight{
+			opacity: 100%;
+		}
+		.nine{
+			opacity: 100%;
+		}
+		.ten{
+			opacity: 100%;
+		}
+		
+		
+	}
+	
+</style>	
+
+
+	
+<body>
+	
+<h1>10</h1>	
+<h2>Principles of Good Design</h2>
+
+<h3>Dieter Rams</h3>
+	
+<div class="triangles">
+<div class="triangle1"></div>
+<div class="triangle2"></div>	
+<div class="triangle3"></div>
+</div>
+	
+
+<div class="one">
+<div class="numbers">	
+<p1>1</p1>
+</div>
+<h4>Good design <br>is innovative</h4>
+<p11>Technology is constantly and rapidly advancing. As a designer, I agree with Rams because I believe we should stay up to date with new programs and technologies that create new ways of thinking and designing.</p11>
+</div>
+
+<div class="two">
+<div class="numbers">		
+<p2>2</p2>	
+</div>
+<h5>Good design makes a product useful.</h5>
+<p12>I agree that the design of a product should have a purpose or goal, keeping in mind the needs of the audience. Good design shouldn't distract a viewer from that purpose. Design should be straightforward and should make the user's life easier, not more difficult.</p12>
+</div>
+
+<div class="three">	
+<div class="numbers">	
+<p3>3</p3>	
+</div>
+<h6>Good design is aesthetic.</h6>	
+<p13>I think the way a design looks matters because aesthetic can impact the the user's daily life and feelings, positively and negatively. I feel that designers have an obligation to make the world clear, but aesthetically appealing to everyone else.</p13>
+</div>
+
+<div class="four">
+<div class="numbers">
+<p4>4</p4>	
+</div>
+<h7>Good design makes a product understandable.</h7>	
+<p14>It is important to me that the design is straight to the point and doesn't confuse the viewer. The design should be precise, thoughtful, and communicate a clear and understandable message. If the design is not understandable, then it has failed as a design. </p14>
+</div>	
+
+<div class="five">
+<div class="numbers">	
+<p5>5</p5>
+</div>
+<h8>Good design is unobtrusive.</h8>
+<p15>I disagree with this principle. Sometimes graphic design needs to be loud and bold to get a point across. Personally, I think that large text or shapes and bright colors can further the message of a composition and make it distinct and noticeable. </p15>
+</div>
+
+<div class="six">	
+<div class="numbers">	
+<p6>6</p6>
+</div>
+<h9>Good design is honest.</h9>
+<p16>Good design, to me, isn't manipulative, it is honest in its' delivery. Design should display the purpose or use straightforwardly, and it should not try to portray itself as something it's not. I think there's a certain responsibility we have to design truthfully. </p16>
+</div>
+	
+	<div class="seven">
+	<div class="numbers">	
+	<p7>7</p7>
+	</div>
+	<h10>Good design is long-lasting.</h10>
+	<p17>I agree that good design is timeless because it avoids being fashionable. It cannot become outdated. I agree that sticking with trends can make a piece look old or out-of-style. It's important to experiment and go outside the norm of your ideas and see where originality can take your design. </p17>
+	</div>
+	
+	<div class="eight">
+	<div class="numbers">
+	<p8>8</p8>
+	</div>
+
+	<h11>Good design is thorough down to the last detail.</h11>
+	<p18>Every last detail must be thought about in design. It is important to be accurate and careful when designing. I must be critical and thoughtful of every last aspect in order to satisfy a range of problems. Dieter Rams is correct when saying that being precise and thoughtful shows the designer has respect for their users.</p18>
+	</div>
+	
+	<div class="nine">
+	<div class="numbers">
+	<p9>9</p9>
+	</div>
+	<h12>Good design is environmentally-friendly.</h12>
+	<p19>Design makes the world a beautiful place, however, it should not congest or pollute the visual environment even further. If a design is bad, it's going to pollute visual space and create a negative reaction.</p19>
+	</div>
+	
+	<div class="ten">
+	<div class="numbers">
+	<p10>10</p10>
+	</div>
+	<h13> Good design is as little design as possible.</h13>
+	<p20>I want to focus on the essentials and not overwhelming the audience. I will attempt to not overdesign and focus more on simplicity. </p20>
+	</div>
+</body>
+</html>
